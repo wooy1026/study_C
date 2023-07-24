@@ -2,7 +2,11 @@
 
 int main(void)
 {
-	int a, b;
-	scanf("%d %d", &a, &b);
+	while (1)
+	{
+		int a, b;
+		scanf("%d %d", &a, &b);
+		printf("%d\n", a + b);
+	}
 
 }
