@@ -21,8 +21,5 @@ int main()
 		if (a[j] == v)
 			count++;
 	}
-
-	printf("%d", count);
-
 	return 0;
 }
